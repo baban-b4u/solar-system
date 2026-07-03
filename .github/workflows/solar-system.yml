@@ -7,7 +7,7 @@ on:
       - main
       - 'feature/*'
 env:
-  MONGO_URI: 'mongodb+srv://babanb4u_db_user:superpassword@cluster0.qve5umd.mongodb.net/?appName=Cluster0'
+  MONGO_URI: 'mongodb+srv://babanb4u_db_user:FX4EqJgPPPAg0Upb@cluster0.qve5umd.mongodb.net/?appName=Cluster0'
   MONGO_USERNAME: ${{ vars.MONGO_USERNAME }}
   MONGO_PASSWORD: ${{ secrets.MONGO_PASSWORD }}    
 jobs:
